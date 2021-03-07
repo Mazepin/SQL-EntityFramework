@@ -5,7 +5,7 @@ namespace SQL_Test
 {
     public class MyDbContext : DbContext
     {
-        protected MyDbContext() : base("DbConnectionString")
+        public MyDbContext() : base("DbConnectionString")
         {
         }
 
@@ -14,3 +14,4 @@ namespace SQL_Test
         public DbSet<Song> Songs { get; set; }
     }
 }
+ 

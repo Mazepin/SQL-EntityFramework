@@ -10,6 +10,6 @@ namespace SQL_Test
         public int? Year { get; set; } // может принимать значение NULL, int не обязательный параметр
         public virtual ICollection<Song> Songs { get; set; } // у каждой группы будут храниться все ее песни
 
-        }
     }
 }
+

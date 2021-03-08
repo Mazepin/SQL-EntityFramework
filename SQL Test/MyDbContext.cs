@@ -3,7 +3,7 @@ using System.Data.Entity; // подключаем
 
 namespace SQL_Test
 {
-    public class MyDbContext : DbContext
+    public class MyDbContext : DbContext // наследуем от стандартного DbContext
     {
         public MyDbContext() : base("DbConnectionString")
         {
